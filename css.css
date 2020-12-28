@@ -1,0 +1,49 @@
+body{
+    background-size: cover;
+    background-image: url(Imagen/fondo.png);
+    background-repeat: no-repeat;
+}
+
+.rounded-circle{
+    
+     width: 75px !important; 
+     height: 75px;
+}
+
+.human{
+    background-color: yellow ;
+    box-shadow: 3px 3px rgba(255, 209, 4, 0.527);
+}
+
+.machine{
+    background-color: red ;
+    box-shadow: 3px 3px rgba(230, 33, 33, 0.479);
+
+
+}
+
+.table>:not(caption)>*>*{
+    border: none;
+    background: rgba(13, 201, 235, 0.514);
+    top: 150px;
+}
+
+.winner{
+    background-color: rgb(216, 216, 216) ;
+    box-shadow: 3px 3px rgb(168, 158, 158);
+}
+
+.table{
+    box-shadow: 4px 4px #0c0c0c85;
+    width: 50% !important;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+.alert{
+    margin: 0 auto;
+    width: 50%;
+    top: 55px;
+    margin-bottom: 15px;
+
+}
